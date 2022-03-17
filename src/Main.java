@@ -14,9 +14,9 @@ public class Main {
             bonus = 0;
         }
                 userBalance += income + bonus;
-        System.out.print("Бонус: ");
+        System.out.println("Бонус: ");
         System.out.println(bonus);
-        System.out.print("Баланс: ");
+        System.out.println("Баланс: ");
         System.out.println(userBalance);
 
     }
