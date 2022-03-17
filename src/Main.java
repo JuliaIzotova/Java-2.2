@@ -2,8 +2,8 @@ public class Main {
     public static void main(String[] args) {
 
         //Входные данные
-      int userBalance = 90;
-      int income = 6500;
+      int userBalance = 100;
+      int income = 1100;
 
       // Решение
         int bonus;
