@@ -9,13 +9,11 @@ public class Main {
         int bonus = 0;
         if (income > 1000) {
             bonus = income / 100;
-        }
+        } 
 
         userBalance += income + bonus;
-        System.out.println("Бонус: ");
-        System.out.println(bonus);
-        System.out.println("Баланс: ");
-        System.out.println(userBalance);
+        System.out.println("Бонус: " + bonus);
+        System.out.println("Баланс: " + userBalance);
 
     }
 
