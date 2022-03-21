@@ -6,12 +6,11 @@ public class Main {
         int income = 1100;
 
         // Решение
-        int bonus;
+        int bonus = 0;
         if (income > 1000) {
-            bonus = (int) income / 100;
-        } else {
-            bonus = 0;
+            bonus = income / 100;
         }
+
         userBalance += income + bonus;
         System.out.println("Бонус: ");
         System.out.println(bonus);
@@ -19,4 +18,5 @@ public class Main {
         System.out.println(userBalance);
 
     }
+
 }
